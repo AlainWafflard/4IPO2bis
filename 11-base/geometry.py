@@ -31,7 +31,7 @@ class Segment:
 
     def __init__(self, points):
         self.points = points
-        self.__longueur_type = "manhattan"
+        self.longueur_type = "manhattan"
 
     def __del__(self):
         print("segment détruit")
@@ -53,9 +53,9 @@ class Segment:
         return d
 
     def longueur(self):
-        if self.__longueur_type == "pythagore" :
+        if self.longueur_type == "pythagore" :
             return self.longueur_pythagore()
-        elif self.__longueur_type == "manhattan":
+        elif self.longueur_type == "manhattan":
             return self.longueur_Manhattan()
         else:
             print("longueur_type non défini")
@@ -69,9 +69,9 @@ p2 = Point( (6,0) )
 
 mon_segment1 = Segment( (p1,p2) )
 print(mon_segment1.longueur())  # 7
-mon_segment1.__longueur_type = "pythagore"
+mon_segment1.longueur_type = "pythagore"
 print(mon_segment1.longueur())  # 5.0
-print(mon_segment1.__longueur_type)
+print(mon_segment1.longueur_type)
 
 # mon_segment2 = Segment( ( Point( (1,1)), Point( (2,2)) ) )
 # print(mon_segment.longueur_pythagore())
