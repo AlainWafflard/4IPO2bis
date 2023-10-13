@@ -10,24 +10,42 @@ class Date:
 
     def __lt__(self, other):
         if self.annee != other.annee :
-            return self.annee < other.annee
+            return self.annee <= other.annee
         elif self.mois != other.mois :
-            return self.mois < other.mois
+            return self.mois <= other.mois
         else:
-            return self.jour < other.jour
+            return self.jour <= other.jour
+
+    def __eq__(self, other):
+        if self.annee != other.annee:
+            return False
+        elif self.mois != other.mois:
+            return False
+        else:
+            return self.jour == other.jour
+
+    # __le__
+    # __lt__
+    # __ge__   __gt__
+    # __eq__   __ne__
 
 
-d1 = Date(5, 3, 1990)
-d2 = Date(10, 3, 1990)
-d3 = Date(8, 5, 1980)
+if __name__ == "__main__":
 
-# print( d1 < d2 )
-# print( d1 >= d2 )
-my_list = [ d1, d2, d3 ]
-for o in my_list : print(o)
-print()
-my_sorted_list = sorted(my_list)
-for o in my_sorted_list : print(o)
+    d1 = Date(5, 3, 1990)
+    d2 = Date(10, 3, 1990)
+    d3 = Date(8, 5, 1980)
+    d4 = Date(5, 3, 1990)
 
-# print(my_list)
+    # print( d1 < d2 )
+    # print( d1 > d3 )
+    # print( d1 >= d2 )
+    print( d1 == d4 )
+    my_list = [ d1, d2, d3 ]
+    for o in my_list : print(o)
+    print()
+    my_sorted_list = sorted(my_list)
+    for o in my_sorted_list : print(o)
+
+    # print(my_list)
 
