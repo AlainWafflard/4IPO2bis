@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e903acf-e35e-40eb-8118-cf7d987743e9" name="Changes" comment="exo 2023/10/13">
-      <change afterPath="$PROJECT_DIR$/11-base/banque/banque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-base/banque/compte.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-base/banque/compte.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-avancé/ifc_13-33-09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PROF/Documents/Alain Wafflard/4IPO2/PycharmProjects/pythonProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PROF/Documents/Alain Wafflard/4IPO2/PycharmProjects/pythonProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PROF\Documents\Alain Wafflard\4IPO2\PycharmProjects\pythonProject\11-base\geometry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.S1_Q1">
+  <component name="RunManager" selected="Python.ifc_13-33-09">
     <configuration name="11-04-04_class_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ifc_13-33-09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11-base/geometry" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13-avancé" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11-base/geometry/rectangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-avancé/ifc_13-33-09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ifc_13-33-09" />
         <item itemvalue="Python.S1_Q1" />
         <item itemvalue="Python.banque" />
         <item itemvalue="Python.compte" />
         <item itemvalue="Python.11-04-04_class_method" />
-        <item itemvalue="Python.rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,9 @@
       <workItem from="1696608692561" duration="9759000" />
       <workItem from="1696867916597" duration="8784000" />
       <workItem from="1697213642042" duration="8374000" />
-      <workItem from="1697472382440" duration="8350000" />
+      <workItem from="1697472382440" duration="8803000" />
+      <workItem from="1699291101245" duration="5704000" />
+      <workItem from="1699299202639" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="upload exo 2023/10/02">
       <option name="closed" value="true" />
@@ -277,6 +279,16 @@
           <line>41</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13-avancé/ifc_13-33-09.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13-avancé/ifc_13-33-09.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -289,6 +301,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$rectangle.coverage" NAME="rectangle Coverage Results" MODIFIED="1697472547271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-base/geometry" />
     <SUITE FILE_PATH="coverage/pythonProject$11_04_04_class_method.coverage" NAME="11-04-04_class_method Coverage Results" MODIFIED="1697473118999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-base/banque" />
     <SUITE FILE_PATH="coverage/pythonProject$11_02_04_attribut_classe_vs_objet.coverage" NAME="11-02-04_attribut_classe_vs_objet Coverage Results" MODIFIED="1695663190306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/pythonProject$ifc_13_33_09.coverage" NAME="ifc_13-33-09 Coverage Results" MODIFIED="1699301327994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13-avancé" />
     <SUITE FILE_PATH="coverage/pythonProject$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1696619753033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/pythonProject$compte.coverage" NAME="compte Coverage Results" MODIFIED="1697476227181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-base/banque" />
     <SUITE FILE_PATH="coverage/pythonProject$nokia.coverage" NAME="nokia Coverage Results" MODIFIED="1695660879151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
